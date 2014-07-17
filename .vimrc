@@ -10,7 +10,7 @@
 "    `--'    `--' '--' `--' `--'`--'  `--'`-------'
 "
 " The following plugins are used:
-" 
+"
 " https://github.com/tpope/vim-pathogen
 " https://github.com/bling/vim-airline/
 " https://github.com/bling/vim-bufferline
@@ -18,6 +18,11 @@
 " https://github.com/scrooloose/nerdtree
 " https://github.com/kien/ctrlp.vim.git
 "
+" Using Meslo pre-patched font from:
+"
+" https://github.com/Lokaltog/powerline-fonts
+" 
+" 
 " set fileencoding=utf-8
 " echo &fileencodings
 "
