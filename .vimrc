@@ -10,13 +10,17 @@
 "    `--'    `--' '--' `--' `--'`--'  `--'`-------'
 "
 " The following plugins are used:
-" 
+"
 " https://github.com/tpope/vim-pathogen
 " https://github.com/bling/vim-airline/
-" https://github.com/bling/vim-bufferline
 " https://github.com/tpope/vim-fugitive
 " https://github.com/scrooloose/nerdtree
 " https://github.com/kien/ctrlp.vim.git
+" https://github.com/jiangmiao/auto-pairs
+"
+" Nice to have plugins, but currently not used:
+"
+" https://github.com/bling/vim-bufferline
 "
 " set fileencoding=utf-8
 " echo &fileencodings
