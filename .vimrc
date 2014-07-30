@@ -22,6 +22,11 @@
 "
 " https://github.com/bling/vim-bufferline
 "
+" Using Meslo pre-patched font from:
+"
+" https://github.com/Lokaltog/powerline-fonts
+" 
+" 
 " set fileencoding=utf-8
 " echo &fileencodings
 "
