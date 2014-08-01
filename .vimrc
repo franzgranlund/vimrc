@@ -16,6 +16,7 @@
 "  https://github.com/scrooloose/nerdtree
 "  https://github.com/kien/ctrlp.vim.git
 "  https://github.com/jiangmiao/auto-pairs
+"  https://github.com/elzr/vim-json
 "
 " Nice to have plugins, but currently not used:
 "  https://github.com/bling/vim-bufferline
@@ -50,6 +51,12 @@ set expandtab       " Expand TABs to spaces
 set nowrap          " Do not wrap lines
 
 colorscheme desert  " MacVim
+
+"
+" Custom mappings
+"
+" Make JSON pretty.
+nnoremap <f8> :%!python -m json.tool<CR>:set filetype=json<CR>
 
 "
 " vim-airline
