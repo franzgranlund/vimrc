@@ -53,10 +53,14 @@ set nowrap          " Do not wrap lines
 colorscheme desert  " MacVim
 
 "
-" Custom mappings
-"
-" Make JSON pretty.
+" Custom mappings:
+"   Make JSON pretty (requires 'vim-json' for the filetype)
 nnoremap <f8> :%!python -m json.tool<CR>:set filetype=json<CR>
+
+"
+" vim-json
+"
+let g:vim_json_syntax_conceal = 0
 
 "
 " vim-airline
