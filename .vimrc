@@ -50,7 +50,8 @@ set expandtab       " Expand TABs to spaces
 
 set nowrap          " Do not wrap lines
 
-colorscheme desert  " MacVim
+colorscheme torte   " MacVim
+" set macmeta         " MacVim - use alt as meta key
 
 "
 " Custom mappings:
@@ -73,3 +74,8 @@ set guifont=Meslo\ LG\ M\ for\ Powerline:h11
 " nerd-tree
 "
 map <C-n> :NERDTreeToggle<CR>
+
+"
+" auto-pairs
+"
+let g:AutoPairsShortcutFastWrap = ''    " Disable FastWrap and free 'å'
